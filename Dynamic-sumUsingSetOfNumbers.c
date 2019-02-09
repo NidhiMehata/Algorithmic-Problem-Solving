@@ -1,7 +1,5 @@
 /* 
 Ways to get a sum using given set of numbers
-
-
 */
 
 #include<stdio.h>
@@ -10,6 +8,7 @@ int main(){
     int num[]={2,3,5};
     int sum=7,i,j,n;
     int arr[sum+1];
+    //To set the all array elements to zero
     memset(arr,0,sizeof(arr));
     arr[0]=1;
     for(n=0;n<3;n++){
