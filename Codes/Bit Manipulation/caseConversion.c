@@ -12,5 +12,4 @@ int main(){
 
     char lower='a';
     printf("To Upper : %c", lower & ~32 );
-
 }
