@@ -12,18 +12,4 @@ Three approaches to compute binomial coeffients(pascal's triangle) are:
         -Used for a single query and smaller value of n
         -Total number of Recursive calls made are 2^n-1
     
-All Three have the same Time Complexity : O(n*k)Three approaches to compute binomial coeffients(pascal's triangle) are: 
-    Iterative using 1d array :
-        -Used only when single row of pascal's traingle is needed.In each iteration it replaces the 
-         coeffients of previous row with the current row.Hence it is space efficient.
-        -Space Complexity : O(k)
-
-    Iterative using 2d array :
-        -Used when all the rows of pascal's traingle are needed.
-        -Space Complexity : O(n*k)
-
-    Recursive : 
-        -Used for a single query and smaller value of n
-        -Total number of Recursive calls made are 2^n-1
-    
 All Three have the same Time Complexity : O(n*k)
