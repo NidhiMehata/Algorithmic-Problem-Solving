@@ -13,4 +13,4 @@ Three ways to query an array :
 3. Segment Tree : 
     - Time Complexity  : O(log(n))
     - Space Complexity : O(4*n)
-    - Updating a value requires bulilding the whole tree 
+    - Updating a value requires rebulilding the whole tree 
