@@ -1,0 +1,16 @@
+Three ways to query an array :
+1. Lookup Table : 
+    - Time Complexity  : O(n^2)
+    - Space Complexity : O(n^2)
+    - A 2 dimensional array is maintined
+    - Used when array needs to be queried frequently
+
+2. Squareroot decomposition : 
+    - Time Complexity  : O(sqrt(n))
+    - Space Complexity : O(n)
+    - Combines different l-r blocks to get the required answer 
+    
+3. Segment Tree : 
+    - Time Complexity  : O(log(n))
+    - Space Complexity : O(4*n)
+    - Updating a value requires bulilding the whole tree 

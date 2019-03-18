@@ -5,8 +5,8 @@ Ways to get a sum using given set of numbers
 #include<stdio.h>
 #include<string.h>
 int main(){
-    int num[]={2,3,5};
-    int sum=7,i,j,n;
+    int num[]={3,5,10};
+    int sum=15,i,j,n;
     int arr[sum+1];
     //To set the all array elements to zero
     memset(arr,0,sizeof(arr));

@@ -25,6 +25,7 @@ int get_lcs(char *str1, char *str2, int len1, int len2)
     int i, j;
     int lcs[len1+1][len2+1];
 
+
     // starting with base cases of
     // First string is empty
     for(i = 0 ; i < len2; i++)
@@ -35,6 +36,10 @@ int get_lcs(char *str1, char *str2, int len1, int len2)
         lcs[i][0]=0;
 
 
+     for(i = 0; i < len1+1 ; i++)
+        for(j = 0; j< len2+1 ; j++)
+            lcs[i][j]=0;
+    
     for(i = 1; i <= len1; i++) {
         for(j = 1; j <= len2; j++) {
             // When charatcers of both string match
@@ -45,6 +50,13 @@ int get_lcs(char *str1, char *str2, int len1, int len2)
         }
     }
 
+    for(i = 0; i < len1+1 ; i++){
+        for(j = 0; j< len2+1 ; j++){
+            printf("%d\t",lcs[i][j]);
+        }
+        printf("\n");
+    }
+
     return lcs[len1][len2];
 }
 
@@ -52,7 +64,7 @@ int get_lcs(char *str1, char *str2, int len1, int len2)
 int main()
 {
     char str1[50] = "lmnop";
-    char str2[50] = "lmmnoop";
+    char str2[50] = "lmmnop";
 
     int result;
     result = get_lcs(str1, str2, strlen(str1), strlen(str2));
