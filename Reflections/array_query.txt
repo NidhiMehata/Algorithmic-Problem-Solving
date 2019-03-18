@@ -8,7 +8,7 @@ Three ways to query an array :
 2. Squareroot decomposition : 
     - Time Complexity  : O(sqrt(n))
     - Space Complexity : O(n)
-    - Combines different l-r blocks to get the required answer 
+    - Combines different l-r blocks to get the required range
     
 3. Segment Tree : 
     - Time Complexity  : O(log(n))
