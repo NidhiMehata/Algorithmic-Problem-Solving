@@ -12,8 +12,3 @@ Three approaches to compute binomial coeffients(pascal's triangle) are:
         -Used for a single query and smaller value of n
         -Total number of Recursive calls made are 2^n-1
     
-<<<<<<< HEAD
-All Three have the same Time Complexity : O(n*k)
-=======
-All Three have the same Time Complexity : O(n*k)
->>>>>>> ec83870cb6b2be8329214823a1e644f6d9bef0c8
