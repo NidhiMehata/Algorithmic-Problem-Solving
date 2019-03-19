@@ -8,10 +8,10 @@ Three ways to query an array :
 2. Squareroot decomposition : 
     - Time Complexity  to build a array : O(sqrt(n))
     - Space Complexity : O(n)
-    - Combines different l-r blocks to get the required answer 
+    - Combines different l-r blocks to get the required range
     
 3. Segment Tree : 
     - Time Complexity to build a segment tree : O(log(n))
     - Time for quering : O(log(n))
     - Space Complexity : O(4*n)
-    - Updating a value requires bulilding the whole tree 
+    - Updating a value requires rebulilding the whole tree 
